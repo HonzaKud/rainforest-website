@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
+import { FiChevronDown } from "react-icons/fi"; // Import ikon
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,13 +39,15 @@ export default function Home() {
         </video>
 
         {/* Overlay Text */}
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-40">
-          <h1 className="text-4xl md:text-6xl font-bold">Objev kouzlo pralesů</h1>
-          <p className="text-lg md:text-xl mt-4">Deštné pralesy jsou plíce naší planety. Poznej jejich krásu.</p>
-          <a href="#content" className="mt-6 px-6 py-3 bg-green-600 text-white rounded-lg text-lg hover:bg-green-700 transition">
-            Prozkoumat
-          </a>
-        </div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
+  <h1 className="text-6xl font-bold tracking-wide">Lost in Nature</h1>
+  <div className="absolute bottom-10 flex justify-center w-full">
+  <button className="w-10 h-10 flex items-center justify-center rounded-full border border-white/50 bg-white/10 text-white text-2xl transition hover:bg-white/20">
+    <FiChevronDown />
+  </button>
+</div>
+</div>
+
       </div>
     </div>
   );
