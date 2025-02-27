@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Lokální konfigurace (důležité pro bezpečnost)
+.env.local
+.env.*.local
+
+# TurboRepo cache (pokud budeš používat)
+.turbo/
+
+# Vercel build cache (někdy se generuje)
+.vercel/
+
+# Výstupy Next.js exportu
+out/
+
+# MacOS soubory (pokud pracuješ na Macu)
+.DS_Store
