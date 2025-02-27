@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,6 +23,7 @@ export default function Home() {
 
       {/* Video Background */}
       <div className="relative w-full h-screen overflow-hidden">
+      <Navbar />
         <video 
           className="absolute top-0 left-0 w-full h-full object-cover"
           autoPlay 
