@@ -5,6 +5,8 @@ import { FiChevronDown } from "react-icons/fi"; // Import ikon
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import Gallery from "@/components/Gallery";
+import Contact from "@/components/Contact";
+
 
 
 const geistSans = Geist({
@@ -57,6 +59,8 @@ export default function Home() {
 <HeroSection />
 <AboutSection />
 <Gallery />
+<Contact />
+
     </div>
   );
 }
