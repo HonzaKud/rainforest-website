@@ -2,6 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import { FiChevronDown } from "react-icons/fi"; // Import ikon
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,6 +52,9 @@ export default function Home() {
 </div>
 
       </div>
+      {/* Přidání úvodní sekce */}
+<HeroSection />
+<AboutSection />
     </div>
   );
 }
