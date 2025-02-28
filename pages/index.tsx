@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import { FiChevronDown } from "react-icons/fi"; // Import ikon
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import Gallery from "@/components/Gallery";
 
 
 const geistSans = Geist({
@@ -55,6 +56,7 @@ export default function Home() {
       {/* Přidání úvodní sekce */}
 <HeroSection />
 <AboutSection />
+<Gallery />
     </div>
   );
 }
