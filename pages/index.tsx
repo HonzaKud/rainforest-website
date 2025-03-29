@@ -46,13 +46,11 @@ export default function Home() {
 
         {/* Overlay Text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-        <h1 className="text-7xl md:text-8xl font-bold tracking-wide drop-shadow-xl">
-        Lost in Nature
-        </h1>
+  <h1 className="text-6xl font-bold tracking-wide">Lost in Nature</h1>
   <div className="absolute bottom-10 flex justify-center w-full">
-  <button className="w-12 h-12 flex items-center justify-center rounded-full border border-white/40 bg-white/10 text-white/80 text-3xl transition hover:bg-white/20">
-  <FiChevronDown />
-</button>
+  <button className="w-10 h-10 flex items-center justify-center rounded-full border border-white/50 bg-white/10 text-white text-2xl transition hover:bg-white/20">
+    <FiChevronDown />
+  </button>
 </div>
 </div>
 
