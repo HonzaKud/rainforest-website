@@ -42,12 +42,6 @@ const Contact = () => {
               📞 **Telefon:** +420 123 456 789
             </p>
   
-            {/* Sociální sítě */}
-            <div className="mt-6 flex space-x-4">
-              <a href="#" className="text-white text-2xl hover:text-green-400 transition">🌍 🌱</a>
-              <a href="#" className="text-white text-2xl hover:text-green-400 transition">📘 📷</a>
-              <a href="#" className="text-white text-2xl hover:text-green-400 transition">🐦 🏞️</a>
-            </div>
           </div>
   
         </div>
