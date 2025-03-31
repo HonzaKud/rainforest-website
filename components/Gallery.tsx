@@ -11,12 +11,30 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="relative w-full bg-gradient-to-b from-green-900 via-green-800 to-green-700 text-white py-24 px-6 md:px-16 text-center"
+      className="relative w-full text-white py-24 px-6 md:px-16 overflow-hidden"
     >
-      <div className="absolute inset-0 bg-white/5 backdrop-blur-md" />
+      {/* Ambientní pozadí + kruhy */}
+      <div className="absolute top-0 left-0 w-full h-full -z-10 bg-green-950">
+        <div className="absolute w-[400px] h-[400px] bg-emerald-500 blur-[100px] opacity-20 top-10 left-1/4" />
+        <div className="absolute w-[300px] h-[300px] bg-green-600 blur-[80px] opacity-30 bottom-10 right-1/3" />
+      </div>
 
-      {/* Nový kontejner pro šířku a zarovnání */}
-      <div className="relative z-10 max-w-7xl mx-auto">
+      {/* SVG vlna nahoře */}
+      <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-10 rotate-180">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          className="w-full h-[60px]"
+        >
+          <path
+            d="M0.00,49.98 C150.00,150.00 350.00,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            className="fill-green-900"
+          />
+        </svg>
+      </div>
+
+      {/* Obsah galerie */}
+      <div className="relative z-10 max-w-7xl mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold">Galerie pralesů</h2>
         <p className="mt-4 text-lg md:text-xl text-white/80">
           Prohlédněte si úchvatné záběry z nejkrásnějších deštných pralesů na světě.
@@ -34,6 +52,20 @@ const Gallery = () => {
             </div>
           ))}
         </div>
+      </div>
+
+      {/* SVG vlna dole */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-10">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          className="w-full h-[60px]"
+        >
+          <path
+            d="M0.00,49.98 C150.00,150.00 350.00,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            className="fill-green-900"
+          />
+        </svg>
       </div>
     </section>
   );

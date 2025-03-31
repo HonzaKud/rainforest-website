@@ -2,9 +2,30 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full bg-gradient-to-br from-green-700 via-green-800 to-green-900 text-white py-24 px-6 md:px-16"
+      className="relative w-full text-white py-24 px-6 md:px-16 overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
+      {/* Ambientní pozadí */}
+      <div className="absolute top-0 left-0 w-full h-full -z-10 bg-green-950">
+        <div className="absolute w-[400px] h-[400px] bg-emerald-500 blur-[100px] opacity-30 top-10 left-1/4" />
+        <div className="absolute w-[300px] h-[300px] bg-green-600 blur-[80px] opacity-40 bottom-10 right-1/3" />
+      </div>
+
+      {/* SVG vlna nahoře */}
+      <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-10 rotate-180">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          className="w-full h-[60px]"
+        >
+          <path
+            d="M0.00,49.98 C150.00,150.00 350.00,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            className="fill-green-900"
+          />
+        </svg>
+      </div>
+
+      {/* Obsah sekce */}
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 relative z-10">
         {/* Levá část – Formulář */}
         <div className="w-full md:w-1/2 flex flex-col items-center text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Napiš nám</h2>
