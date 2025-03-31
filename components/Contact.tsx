@@ -33,13 +33,13 @@ const Contact = () => {
           <div className="px-6 md:px-16 flex flex-col justify-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Kontakt</h2>
             <p className="text-lg text-white/80 mb-4">
-              📍 **Adresa:** Pralesní ulice 42, 100 00 Zelená Země
+              Adresa: Pralesní ulice 42, 100 00 Zelená Země
             </p>
             <p className="text-lg text-white/80 mb-4">
-              ✉️ **E-mail:** info@terraverde.com
+              E-mail: info@terraverde.com
             </p>
             <p className="text-lg text-white/80 mb-4">
-              📞 **Telefon:** +420 123 456 789
+              Telefon: +420 123 456 789
             </p>
   
           </div>
