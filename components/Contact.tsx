@@ -80,6 +80,20 @@ const Contact = () => {
           </p>
         </div>
       </div>
+
+      {/* SVG vlna dole */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-10">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          className="w-full h-[60px]"
+        >
+          <path
+            d="M0.00,49.98 C150.00,150.00 350.00,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            className="fill-green-900"
+          />
+        </svg>
+      </div>
     </section>
   );
 };

@@ -6,6 +6,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 
 
@@ -60,6 +61,7 @@ export default function Home() {
 <AboutSection />
 <Gallery />
 <Contact />
+<Footer />
 
     </div>
   );
