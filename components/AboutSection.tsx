@@ -6,11 +6,11 @@ const AboutSection = () => {
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row-reverse items-center gap-12">
         {/* Pravá část – text */}
-        <div className="max-w-xl">
+        <div className="w-full md:w-1/2 flex flex-col items-center text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Tajemství pralesů
           </h2>
-          <p className="text-white/90 leading-relaxed">
+          <p className="text-white/90 leading-relaxed max-w-xl">
             Deštné pralesy skrývají tisíce druhů, které stále čekají na své objevení.
             Každý kout těchto lesů je ekosystém sám o sobě, plný vzájemně propojených
             rostlin a živočichů.

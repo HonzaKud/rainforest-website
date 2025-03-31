@@ -6,11 +6,11 @@ const HeroSection = () => {
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Levá část – text */}
-        <div className="max-w-xl">
+        <div className="w-full md:w-1/2 flex flex-col items-center text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Poznej krásu deštných pralesů
           </h2>
-          <p className="text-white/90 leading-relaxed">
+          <p className="text-white/90 leading-relaxed max-w-xl">
             Deštné pralesy jsou jedním z nejdůležitějších ekosystémů na Zemi.
             Poskytují domov milionům druhů rostlin a živočichů, z nichž mnohé
             nenajdeme nikde jinde.
