@@ -28,34 +28,35 @@ export default function Home() {
       </Head>
 
       {/* Video Background */}
-      <div className="relative w-full h-screen overflow-hidden">
-        <Navbar />
-        <video
-          className="absolute top-0 left-0 w-full h-full object-cover"
-          autoPlay
-          loop
-          muted
-          playsInline
-          poster="/poster.jpeg"
-        >
-          <source src="/video.webm" type="video/webm" />
-          <source src="/video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+<div id="home" className="relative w-full h-screen overflow-hidden">
+  <Navbar />
+  <video
+    className="absolute top-0 left-0 w-full h-full object-cover"
+    autoPlay
+    loop
+    muted
+    playsInline
+    poster="/poster.jpeg"
+  >
+    <source src="/video.webm" type="video/webm" />
+    <source src="/video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 
-        {/* Overlay Text & Scroll Button */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-          <h1 className="text-6xl font-bold tracking-wide">Lost in Nature</h1>
-          <div className="absolute bottom-10 flex justify-center w-full">
-            <a
-              href="#content"
-              className="w-10 h-10 flex items-center justify-center rounded-full border border-white/50 bg-white/10 text-white text-2xl transition hover:bg-white/20"
-            >
-              <FiChevronDown />
-            </a>
-          </div>
-        </div>
-      </div>
+  {/* Overlay Text & Scroll Button */}
+  <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
+    <h1 className="text-6xl font-bold tracking-wide">Lost in Nature</h1>
+    <div className="absolute bottom-10 flex justify-center w-full">
+      <a
+        href="#content"
+        className="w-10 h-10 flex items-center justify-center rounded-full border border-white/50 bg-white/10 text-white text-2xl transition hover:bg-white/20"
+      >
+        <FiChevronDown />
+      </a>
+    </div>
+  </div>
+</div>
+
 
       {/* Obsah stránky */}
       <HeroSection />
