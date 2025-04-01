@@ -45,37 +45,51 @@ const Contact = () => {
             Máš dotaz nebo nám chceš něco sdělit? Napiš nám pomocí formuláře níže.
           </p>
 
-          <form className="space-y-6 w-full max-w-md text-left">
-            <div>
-              <label className="block text-lg">Jméno</label>
-              <input
-                type="text"
-                placeholder="Tvoje jméno"
-                className="w-full p-3 rounded-lg bg-white text-gray-900"
-              />
-            </div>
-            <div>
-              <label className="block text-lg">E-mail</label>
-              <input
-                type="email"
-                placeholder="Tvůj e-mail"
-                className="w-full p-3 rounded-lg bg-white text-gray-900"
-              />
-            </div>
-            <div>
-              <label className="block text-lg">Zpráva</label>
-              <textarea
-                placeholder="Napiš svou zprávu..."
-                className="w-full p-3 rounded-lg bg-white text-gray-900 h-32"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-green-600 text-white py-3 rounded-lg text-lg hover:bg-green-700 transition"
-            >
-              Odeslat
-            </button>
-          </form>
+          <form
+  action="https://formsubmit.co/kudrna.honza@email.cz"
+  method="POST"
+  className="space-y-6 w-full max-w-md text-left"
+>
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_next" value="https://rainforest-website-git-main-jan-kudrnas-projects.vercel.app/" />
+
+  <div>
+    <label className="block text-lg">Jméno</label>
+    <input
+      type="text"
+      name="name"
+      placeholder="Tvoje jméno"
+      required
+      className="w-full p-3 rounded-lg bg-white text-gray-900"
+    />
+  </div>
+  <div>
+    <label className="block text-lg">E-mail</label>
+    <input
+      type="email"
+      name="email"
+      placeholder="Tvůj e-mail"
+      required
+      className="w-full p-3 rounded-lg bg-white text-gray-900"
+    />
+  </div>
+  <div>
+    <label className="block text-lg">Zpráva</label>
+    <textarea
+      name="message"
+      placeholder="Napiš svou zprávu..."
+      required
+      className="w-full p-3 rounded-lg bg-white text-gray-900 h-32"
+    ></textarea>
+  </div>
+  <button
+    type="submit"
+    className="w-full bg-green-600 text-white py-3 rounded-lg text-lg hover:bg-green-700 transition"
+  >
+    Odeslat
+  </button>
+</form>
+
         </div>
 
         {/* Pravá část – Kontakt */}

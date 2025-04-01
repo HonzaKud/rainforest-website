@@ -39,7 +39,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Terra Verde. Všechna práva vyhrazena.
         </p>
         <div className="flex space-x-6 mt-4 md:mt-0">
-          <a href="#" className="hover:text-green-400 transition">Facebook</a>
+          <a href="https://www.facebook.com/" className="hover:text-green-400 transition">Facebook</a>
           <a href="#" className="hover:text-green-400 transition">Instagram</a>
           <a href="#contact" className="hover:text-green-400 transition">Kontakt</a>
         </div>
