@@ -4,14 +4,26 @@ const HeroSection = () => {
       id="content"
       className="relative w-full text-white py-24 px-6 md:px-16 overflow-hidden"
     >
-      {/* Pozadí sekce + ambientní kruhy */}
-      <div className="absolute top-0 left-0 w-full h-full -z-10 bg-green-950">
+      {/* Ambientní pozadí + kruhy */}
+      <div className="absolute top-0 left-0 w-full h-full -z-20 bg-green-950">
         <div className="absolute w-[400px] h-[400px] bg-green-600 blur-[100px] opacity-40 top-0 left-1/4" />
         <div className="absolute w-[300px] h-[300px] bg-emerald-400 blur-[80px] opacity-30 bottom-0 right-1/3" />
       </div>
 
+      {/* Parallax Video Background */}
+      <div className="absolute top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
+        <video
+          src="/video.webm"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover opacity-10 scale-110 [transform:translateZ(0)]"
+        />
+      </div>
+
       {/* Obsah sekce */}
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 relative z-10">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 relative z-20">
         {/* Levá část – text */}
         <div className="w-full md:w-1/2 flex flex-col items-center text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">

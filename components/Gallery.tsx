@@ -14,9 +14,21 @@ const Gallery = () => {
       className="relative w-full text-white py-24 px-6 md:px-16 overflow-hidden"
     >
       {/* Ambientní pozadí + kruhy */}
-      <div className="absolute top-0 left-0 w-full h-full -z-10 bg-green-950">
+      <div className="absolute top-0 left-0 w-full h-full -z-20 bg-green-950">
         <div className="absolute w-[400px] h-[400px] bg-emerald-500 blur-[100px] opacity-20 top-10 left-1/4" />
         <div className="absolute w-[300px] h-[300px] bg-green-600 blur-[80px] opacity-30 bottom-10 right-1/3" />
+      </div>
+
+      {/* Parallax video background */}
+      <div className="absolute top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
+        <video
+          src="/video.webm"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover opacity-10 scale-110 [transform:translateZ(0)]"
+        />
       </div>
 
       {/* SVG vlna nahoře */}
@@ -34,7 +46,7 @@ const Gallery = () => {
       </div>
 
       {/* Obsah galerie */}
-      <div className="relative z-10 max-w-7xl mx-auto text-center">
+      <div className="relative z-20 max-w-7xl mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold">Galerie pralesů</h2>
         <p className="mt-4 text-lg md:text-xl text-white/80">
           Prohlédněte si úchvatné záběry z nejkrásnějších deštných pralesů na světě.
