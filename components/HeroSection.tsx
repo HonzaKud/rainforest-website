@@ -62,7 +62,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* SVG vlna dole */}
+      {/* SVG vlna dole bez gradientu */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-10">
         <svg
           viewBox="0 0 500 150"

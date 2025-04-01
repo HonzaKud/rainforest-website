@@ -22,7 +22,7 @@ const AboutSection = () => {
         />
       </div>
 
-      {/* SVG vlna nahoře */}
+      {/* SVG vlna nahoře bez gradientu */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-10 rotate-180">
         <svg
           viewBox="0 0 500 150"
