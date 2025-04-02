@@ -7,6 +7,7 @@ import AboutSection from "@/components/AboutSection";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FactsSection from "@/components/FactsSection";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -62,6 +63,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <Gallery />
+      <FactsSection />
       <Contact />
       <Footer />
     </div>
