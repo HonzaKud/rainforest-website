@@ -1,3 +1,7 @@
+import { useState } from "react";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+
 const images = [
   "/gallery1.jpg",
   "/gallery2.jpg",
@@ -8,6 +12,8 @@ const images = [
 ];
 
 const Gallery = () => {
+  const [index, setIndex] = useState(-1);
+
   return (
     <section
       id="gallery"
@@ -54,17 +60,29 @@ const Gallery = () => {
 
         {/* Mřížka obrázků */}
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {images.map((src, index) => (
-            <div key={index} className="overflow-hidden rounded-lg shadow-lg">
+          {images.map((src, i) => (
+            <button
+              key={i}
+              onClick={() => setIndex(i)}
+              className="overflow-hidden rounded-lg shadow-lg focus:outline-none"
+            >
               <img
                 src={src}
-                alt={`Galerie ${index + 1}`}
+                alt={`Galerie ${i + 1}`}
                 className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105"
               />
-            </div>
+            </button>
           ))}
         </div>
       </div>
+
+      {/* Lightbox */}
+      <Lightbox
+        open={index >= 0}
+        index={index}
+        close={() => setIndex(-1)}
+        slides={images.map((src) => ({ src }))}
+      />
 
       {/* SVG vlna dole */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-10">
