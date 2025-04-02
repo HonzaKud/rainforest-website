@@ -1,6 +1,6 @@
 const Footer = () => { 
   return (
-    <footer className="relative w-full text-white pt-24 pb-8 overflow-hidden">
+    <footer className="relative w-full text-white pt-16 pb-8 overflow-hidden">
       {/* SVG vlna nahoře */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none rotate-180 z-10">
         <svg

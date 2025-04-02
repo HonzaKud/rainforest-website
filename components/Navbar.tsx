@@ -10,12 +10,12 @@ const Navbar = () => {
 
       {/* Navigační odkazy */}
       <div className="space-x-4 text-white text-sm tracking-wide hidden md:flex">
-        <Link className="hover:text-green-400 transition" href="/#home">Domů</Link>
-        <Link className="hover:text-green-400 transition" href="/#content">O projektu</Link>
-        <Link className="hover:text-green-400 transition" href="/#about">Ekosystém</Link>
-        <Link className="hover:text-green-400 transition" href="/#gallery">Galerie</Link>
-        <Link className="hover:text-green-400 transition" href="/#contact">Kontakt</Link>
-      </div>
+  <Link className="hover:text-green-400 transition" href="#home">Domů</Link>
+  <Link className="hover:text-green-400 transition" href="#content">O projektu</Link>
+  <Link className="hover:text-green-400 transition" href="#gallery">Galerie</Link>
+  <Link className="hover:text-green-400 transition" href="#facts">Příběhy</Link>
+  <Link className="hover:text-green-400 transition" href="#contact">Kontakt</Link>
+</div>
     </nav>
   );
 };
