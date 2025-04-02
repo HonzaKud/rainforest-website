@@ -99,7 +99,7 @@ const Contact = () => {
             <strong>Adresa:</strong> Pralesní ulice 42, 100 00 Zelená Země
           </p>
           <p className="text-lg text-white/80 mb-4 max-w-md">
-            <strong>E-mail:</strong> info@terraverde.com
+            <strong>E-mail:</strong> info@lostinnature.com
           </p>
           <p className="text-lg text-white/80 mb-4 max-w-md">
             <strong>Telefon:</strong> +420 123 456 789
