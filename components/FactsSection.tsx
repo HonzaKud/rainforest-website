@@ -46,28 +46,28 @@ const FactsSection = () => {
           {/* Boxy s fakty */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-md hover:scale-105 transform transition">
-              <div className="text-4xl mb-4">🌿</div>
+              <img src="/story1.jpg" alt="Biodiverzita" className="w-full h-32 object-cover rounded-lg mb-4" />
               <h3 className="text-xl font-bold mb-2">Biodiverzita</h3>
               <p className="text-white/80 text-sm">
                 Deštné pralesy jsou domovem více než 50 % všech známých druhů rostlin a živočichů.
               </p>
             </div>
             <div className="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-md hover:scale-105 transform transition">
-              <div className="text-4xl mb-4">💧</div>
+              <img src="/story2.jpg" alt="Vodní cyklus" className="w-full h-32 object-cover rounded-lg mb-4" />
               <h3 className="text-xl font-bold mb-2">Vodní cyklus</h3>
               <p className="text-white/80 text-sm">
                 Stromy v pralese vytvářejí vlastní déšť. Vypařují vlhkost, která se vrací jako srážky.
               </p>
             </div>
             <div className="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-md hover:scale-105 transform transition">
-              <div className="text-4xl mb-4">🌎</div>
+              <img src="/story3.jpg" alt="Kyslík pro Zemi" className="w-full h-32 object-cover rounded-lg mb-4" />
               <h3 className="text-xl font-bold mb-2">Kyslík pro Zemi</h3>
               <p className="text-white/80 text-sm">
                 Pralesy produkují více než 20 % kyslíku, který dýcháme. Jsou klíčem ke zdravé planetě.
               </p>
             </div>
             <div className="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-md hover:scale-105 transform transition">
-              <div className="text-4xl mb-4">🔍</div>
+              <img src="/story4.jpg" alt="Neprozkoumaný svět" className="w-full h-32 object-cover rounded-lg mb-4" />
               <h3 className="text-xl font-bold mb-2">Neprozkoumaný svět</h3>
               <p className="text-white/80 text-sm">
                 Každý rok vědci objeví stovky nových druhů v pralesích, které jsme ještě nikdy neviděli.
