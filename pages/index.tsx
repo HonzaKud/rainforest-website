@@ -40,7 +40,6 @@ export default function Home() {
     poster="/poster.jpeg"
   >
     <source src="/video.webm" type="video/webm" />
-    <source src="/video.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
