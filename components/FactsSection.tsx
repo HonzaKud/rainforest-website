@@ -38,7 +38,7 @@ const FactsSection = () => {
   
         {/* Obsah sekce */}
         <div className="relative z-20 max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl md:text-6xl font-bold mb-6">Příběhy z pralesa</h2>
+          <h2 className="text-4xl md:text-6xl font-bold mb-6">Věděli jste, že…?</h2>
           <p className="text-lg md:text-xl text-white/80 mb-12 max-w-2xl mx-auto">
             Objev fascinující fakta, tajemství a jedinečné příběhy, které deštné pralesy skrývají.
           </p>

@@ -40,7 +40,7 @@ const Footer = () => {
         </p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="https://www.facebook.com/" className="hover:text-green-400 transition">Facebook</a>
-          <a href="#" className="hover:text-green-400 transition">Instagram</a>
+          <a href="https://www.instagram.com/" className="hover:text-green-400 transition">Instagram</a>
           <a href="#contact" className="hover:text-green-400 transition">Kontakt</a>
         </div>
       </div>

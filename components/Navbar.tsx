@@ -13,7 +13,7 @@ const Navbar = () => {
   <Link className="hover:text-green-400 transition" href="#home">Domů</Link>
   <Link className="hover:text-green-400 transition" href="#content">O projektu</Link>
   <Link className="hover:text-green-400 transition" href="#gallery">Galerie</Link>
-  <Link className="hover:text-green-400 transition" href="#facts">Příběhy</Link>
+  <Link className="hover:text-green-400 transition" href="#facts">Zajímavosti</Link>
   <Link className="hover:text-green-400 transition" href="#contact">Kontakt</Link>
 </div>
     </nav>

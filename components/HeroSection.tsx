@@ -27,7 +27,7 @@ const HeroSection = () => {
         {/* Levá část – text */}
         <div className="w-full md:w-1/2 flex flex-col items-center text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Poznej krásu deštných pralesů
+            Krása deštných pralesů
           </h2>
           <p className="text-white/90 leading-relaxed max-w-xl">
             Deštné pralesy jsou jedním z nejdůležitějších ekosystémů na Zemi.

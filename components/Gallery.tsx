@@ -53,9 +53,9 @@ const Gallery = () => {
 
       {/* Obsah galerie */}
       <div className="relative z-20 max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl md:text-6xl font-bold">Galerie pralesů</h2>
+        <h2 className="text-4xl md:text-6xl font-bold">Galerie</h2>
         <p className="mt-4 text-lg md:text-xl text-white/80">
-          Prohlédněte si úchvatné záběry z nejkrásnějších deštných pralesů na světě.
+          Prohlédněte si úchvatné záběry z nejkrásnějších deštných pralesů světa.
         </p>
 
         {/* Mřížka obrázků */}
