@@ -37,7 +37,7 @@ export default function Home() {
     loop
     muted
     playsInline
-    poster="/poster.jpeg"
+    poster="/poster.jpg"
   >
     <source src="/video.webm" type="video/webm" />
     Your browser does not support the video tag.
