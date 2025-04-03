@@ -36,7 +36,7 @@ const Footer = () => {
       {/* Obsah footeru */}
       <div className="relative z-20 max-w-7xl mx-auto px-6 md:px-16 flex flex-col md:flex-row justify-between items-center">
         <p className="text-sm text-white/70 text-center md:text-left">
-          &copy; {new Date().getFullYear()} LostInNature. Všechna práva vyhrazena.
+          &copy; {new Date().getFullYear()} Lost In Nature. Všechna práva vyhrazena.
         </p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="https://www.facebook.com/" className="hover:text-green-400 transition">Facebook</a>

@@ -32,7 +32,7 @@ export default function Home() {
 <div id="home" className="relative w-full h-screen overflow-hidden">
   <Navbar />
   <video
-    className="absolute top-0 left-0 w-full h-full object-cover"
+  className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
     autoPlay
     loop
     muted
