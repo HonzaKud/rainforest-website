@@ -46,15 +46,19 @@ export default function Home() {
 
   {/* Overlay Text & Scroll Button */}
   <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-    <h1 className="text-6xl font-bold tracking-wide">Lost in Nature</h1>
-    <div className="absolute bottom-10 flex justify-center w-full">
-      <a
-        href="#content"
-        className="w-10 h-10 flex items-center justify-center rounded-full border border-white/50 bg-white/10 text-white text-2xl transition hover:bg-white/20"
-      >
-        <FiChevronDown />
-      </a>
-    </div>
+  <h1 className="text-6xl font-bold tracking-wide opacity-0 fade-in-up animation-delay-500">
+  Lost in Nature
+</h1>
+
+<div className="absolute bottom-10 flex justify-center w-full opacity-0 fade-in-up animation-delay-1000">
+  <a
+    href="#content"
+    className="w-10 h-10 flex items-center justify-center rounded-full border border-white/50 bg-white/10 text-white text-2xl transition hover:bg-white/20"
+  >
+    <FiChevronDown />
+  </a>
+</div>
+
   </div>
 </div>
 
