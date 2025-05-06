@@ -1,40 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Web o deštných pralesech – Lost In Nature
+Lost in Nature je moderní a vizuálně poutavý responzivní web zaměřený na krásu a význam tropických deštných pralesů. Nejedná se o produkční projekt, ale o osobní prezentaci schopností v oblasti frontendového vývoje. Hlavním cílem je ukázat důraz na design, responzivitu a využití moderních technologií v praxi.
+Projekt byl postaven pomocí frameworku Next.js a stylován s využitím Tailwind CSS. Obsahuje celou řadu interaktivních prvků – responzivní navigaci, jemné animace, vrstvení textu, obrázků a videa. Návrh klade důraz na vizuální konzistenci, detail a příjemný uživatelský zážitek.
+Teoreticky by bylo možné web rozšířit o další funkcionality (například e-shop s produkty z přírody), ale to není aktuálním cílem. Hlavním účelem je prezentace dovedností.
+Použité technologie
+•	Next.js + React
+•	TailwindCSS pro styling
+•	Framer Motion / CSS animace
+•	FormSubmit pro bezserverové odesílání formulářů
+•	Vercel pro nasazení projektu
+Funkce a obsah
+•	Úvodní video – plynulý záběr z dronu nad tropickým pralesem, optimalizovaný pro smyčku
+•	Moderní navigace – responzivní menu s hamburgerem a animacemi
+•	Sekce „O projektu“ – úvodní část s vysvětlením tématu a cíle
+•	Galerie – přehledná a vizuálně atraktivní galerie fotografií
+•	Zajímavosti z pralesa – sekce se čtyřmi tematickými kartami
+•	Kontaktní formulář – jednoduchý, plně funkční formulář přes FormSubmit
+•	Vizuální prvky – ambientní pozadí, parallax vrstvy, SVG přechody, animace při načtení
+Responzivita
+Web je plně optimalizován pro mobilní i desktopová zařízení. Všechny sekce se přizpůsobují obrazovce, včetně mobilní navigace s hamburgerem.
+Cíl projektu
+Tento projekt vznikl jako prezentační ukázka schopností v oblasti frontendu. Cílem bylo vytvořit designově silný a plně responzivní web, který názorně ukazuje praktické dovednosti. Obsah slouží jako doplněk vizuálního a technického zpracování. Web nebude využit v produkci – jeho hlavní smysl je ukázat, co dokážu vytvořit.
+Odkazy
+•	Nasazený web na Vercelu: https://rainforest-website-git-main-jan-kudrnas-projects.vercel.app/
+•	GitHub repozitář: https://github.com/HonzaKud/rainforest-website
 
-## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
